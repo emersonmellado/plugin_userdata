@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <title>Test Plugin for goodbarber app</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+  <script language="JavaScript" src="./GBJSTK.js"></script>
+  <script language="JavaScript" src="./data.js"></script>
+  <script language="JavaScript" src="./plugin.js"></script>
+</head>
+
+<body>
+  <div id="content">
+    <div id="today">User List Example</div>
+      <div><label>User ID:</label><span id="userId"></span></div>
+      <div><label>Name:</label><span id="name"></span></div>
+      <div><label>Email:</label><span id="email"></span></div>
+      <div id="refresh">
+        <center>
+          <div id="refreshButton" onClick="javascript:init();"></div>
+          <div id="loadingSpinner" style="display:none;"></div>
+        </center>
+      </div>
+    </div>
+</body>
+
+</html>
